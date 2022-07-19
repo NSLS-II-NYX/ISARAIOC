@@ -1,0 +1,5998 @@
+4 0 1
+beginScreenProperties
+major 4
+minor 0
+release 1
+x 869
+y 192
+w 1100
+h 626
+font "helvetica-medium-r-10.0"
+ctlFont "helvetica-medium-r-10.0"
+btnFont "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 3
+textColor index 14
+ctlFgColor1 index 14
+ctlFgColor2 index 0
+ctlBgColor1 index 0
+ctlBgColor2 index 14
+topShadowColor index 0
+botShadowColor index 14
+gridSize 5
+endScreenProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 240
+y 191
+w 305
+h 146
+lineColor index 5
+fillColor index 1
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 240
+y 344
+w 464
+h 81
+lineColor index 5
+fill
+fillColor index 70
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 11
+y 142
+w 222
+h 282
+lineColor index 5
+fillColor index 0
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 11
+y 544
+w 222
+h 23
+controlPv "$(device):LOG"
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+fgColor index 53
+bgColor index 9
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "controls"
+endObjectProperties
+
+# (Button)
+object activeButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 248
+y 198
+w 67
+h 22
+fgColor index 14
+onColor index 75
+offColor index 75
+inconsistentColor index 14
+topShadowColor index 0
+botShadowColor index 10
+controlPv "$(device):CMD:abort"
+indicatorPv "$(device):CMD:abort"
+onLabel "Abort"
+buttonType "push"
+3d
+font "helvetica-medium-r-10.0"
+objType "controls"
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 12
+y 39
+w 730
+h 0
+lineColor index 5
+fillColor index 0
+numPoints 2
+xPoints {
+  0 12
+  1 742
+}
+yPoints {
+  0 39
+  1 39
+}
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 135
+y 45
+w 112
+h 41
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 135
+y 45
+w 112
+h 41
+lineColor index 14
+fill
+fillColor index 9
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 137
+y 47
+w 103
+h 14
+controlPv "$(device):STATUS.DESC"
+format "string"
+font "helvetica-medium-r-10.0"
+fgColor index 5
+bgColor index 0
+useDisplayBg
+nullColor index 0
+smartRefresh
+fastUpdate
+newPos
+objType "monitors"
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 136
+y 60
+w 109
+h 25
+controlPv "$(device):STATUS"
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+fgColor index 164
+bgColor index 9
+useDisplayBg
+limitsFromDb
+nullColor index 0
+colorPv "$(device):STATUS"
+smartRefresh
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 11
+y 96
+w 112
+h 41
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 11
+y 96
+w 112
+h 41
+lineColor index 14
+fill
+fillColor index 9
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 13
+y 98
+w 103
+h 14
+controlPv "$(device):STATE:tool.DESC"
+format "string"
+font "helvetica-medium-r-10.0"
+fgColor index 5
+bgColor index 0
+useDisplayBg
+nullColor index 0
+smartRefresh
+newPos
+objType "monitors"
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 12
+y 111
+w 109
+h 25
+controlPv "$(device):STATE:tool"
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+fgColor index 36
+bgColor index 9
+useDisplayBg
+limitsFromDb
+nullColor index 0
+smartRefresh
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 383
+y 45
+w 112
+h 41
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 383
+y 45
+w 112
+h 41
+lineColor index 14
+fill
+fillColor index 9
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 385
+y 47
+w 103
+h 14
+controlPv "$(device):STATE:mode.DESC"
+format "string"
+font "helvetica-medium-r-10.0"
+fgColor index 5
+bgColor index 0
+useDisplayBg
+nullColor index 0
+smartRefresh
+newPos
+objType "monitors"
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 384
+y 60
+w 109
+h 25
+controlPv "$(device):STATE:mode"
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+fgColor index 104
+bgColor index 9
+useDisplayBg
+limitsFromDb
+nullColor index 0
+smartRefresh
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 135
+y 96
+w 112
+h 41
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 135
+y 96
+w 112
+h 41
+lineColor index 14
+fill
+fillColor index 9
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 137
+y 98
+w 103
+h 14
+controlPv "$(device):STATE:path.DESC"
+format "string"
+font "helvetica-medium-r-10.0"
+fgColor index 5
+bgColor index 0
+useDisplayBg
+nullColor index 0
+smartRefresh
+newPos
+objType "monitors"
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 136
+y 111
+w 109
+h 25
+controlPv "$(device):STATE:path"
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+fgColor index 36
+bgColor index 9
+useDisplayBg
+limitsFromDb
+nullColor index 0
+smartRefresh
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 259
+y 96
+w 112
+h 41
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 259
+y 96
+w 112
+h 41
+lineColor index 14
+fill
+fillColor index 9
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 261
+y 98
+w 103
+h 14
+controlPv "$(device):STATE:pos.DESC"
+format "string"
+font "helvetica-medium-r-10.0"
+fgColor index 5
+bgColor index 0
+useDisplayBg
+nullColor index 0
+smartRefresh
+newPos
+objType "monitors"
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 260
+y 111
+w 109
+h 25
+controlPv "$(device):STATE:pos"
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+fgColor index 36
+bgColor index 9
+useDisplayBg
+limitsFromDb
+nullColor index 0
+smartRefresh
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 259
+y 45
+w 112
+h 41
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 259
+y 45
+w 112
+h 41
+lineColor index 14
+fill
+fillColor index 9
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 261
+y 47
+w 103
+h 14
+controlPv "$(device):STATE:power.DESC"
+format "string"
+font "helvetica-medium-r-10.0"
+fgColor index 5
+bgColor index 0
+useDisplayBg
+nullColor index 0
+smartRefresh
+newPos
+objType "monitors"
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 260
+y 60
+w 109
+h 25
+controlPv "$(device):STATE:power"
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+fgColor index 91
+bgColor index 9
+useDisplayBg
+limitsFromDb
+nullColor index 0
+colorPv "$(device):STATE:power"
+smartRefresh
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 15
+y 8
+w 94
+h 12
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "ISARA Automounter"
+}
+autoSize
+endObjectProperties
+
+# (Choice Button)
+object activeChoiceButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 607
+y 6
+w 135
+h 24
+fgColor index 14
+bgColor index 76
+selectColor index 54
+inconsistentColor index 14
+topShadowColor index 0
+botShadowColor index 14
+controlPv "$(device):ENABLED"
+indicatorPv "$(device):ENABLED"
+font "helvetica-medium-r-10.0"
+orientation "horizontal"
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 11
+y 45
+w 112
+h 41
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 11
+y 45
+w 112
+h 41
+lineColor index 14
+fill
+fillColor index 9
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 13
+y 47
+w 103
+h 14
+controlPv "$(device):CONNECTED.DESC"
+format "string"
+font "helvetica-medium-r-10.0"
+fgColor index 5
+bgColor index 0
+useDisplayBg
+nullColor index 0
+smartRefresh
+newPos
+objType "monitors"
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 12
+y 60
+w 109
+h 25
+controlPv "$(device):CONNECTED"
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+fgColor index 101
+bgColor index 9
+useDisplayBg
+limitsFromDb
+nullColor index 0
+colorPv "$(device):CONNECTED"
+smartRefresh
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 631
+y 45
+w 112
+h 41
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 631
+y 45
+w 112
+h 41
+lineColor index 14
+fill
+fillColor index 9
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 633
+y 47
+w 103
+h 14
+controlPv "$(device):ENABLED.DESC"
+format "string"
+font "helvetica-medium-r-10.0"
+fgColor index 5
+bgColor index 0
+useDisplayBg
+nullColor index 0
+smartRefresh
+newPos
+objType "monitors"
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 632
+y 60
+w 109
+h 25
+controlPv "$(device):ENABLED"
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+fgColor index 83
+bgColor index 9
+useDisplayBg
+limitsFromDb
+nullColor index 0
+colorPv "$(device):ENABLED"
+smartRefresh
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 383
+y 96
+w 112
+h 41
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 383
+y 96
+w 112
+h 41
+lineColor index 14
+fill
+fillColor index 9
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 385
+y 98
+w 103
+h 14
+controlPv "$(device):STATE:onDiff.DESC"
+format "string"
+font "helvetica-medium-r-10.0"
+fgColor index 5
+bgColor index 0
+useDisplayBg
+nullColor index 0
+smartRefresh
+newPos
+objType "monitors"
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 384
+y 111
+w 109
+h 25
+controlPv "$(device):STATE:onDiff"
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+fgColor index 36
+bgColor index 9
+useDisplayBg
+limitsFromDb
+nullColor index 0
+smartRefresh
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 481
+y 145
+w 158
+h 30
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 481
+y 145
+w 157
+h 29
+lineColor index 9
+fillColor index 0
+endObjectProperties
+
+# (Button)
+object activeButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 556
+y 145
+w 83
+h 30
+fgColor index 14
+onColor index 55
+offColor index 55
+inconsistentColor index 14
+topShadowColor index 0
+botShadowColor index 10
+controlPv "$(device):CMD:dismount"
+indicatorPv "$(device):CMD:dismount"
+onLabel "Dismount"
+buttonType "push"
+3d
+font "helvetica-medium-r-10.0"
+objType "controls"
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 483
+y 147
+w 73
+h 26
+controlPv "$(device):STATE:onDiff"
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+fgColor index 57
+bgColor index 55
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "controls"
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Button)
+object activeButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 248
+y 305
+w 67
+h 22
+fgColor index 14
+onColor index 1
+offColor index 1
+inconsistentColor index 14
+topShadowColor index 0
+botShadowColor index 10
+controlPv "$(device):CMD:pause"
+indicatorPv "$(device):CMD:pause"
+onLabel "Pause"
+buttonType "push"
+3d
+font "helvetica-medium-r-10.0"
+objType "controls"
+endObjectProperties
+
+# (Button)
+object activeButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 248
+y 225
+w 67
+h 22
+fgColor index 14
+onColor index 50
+offColor index 50
+inconsistentColor index 14
+topShadowColor index 0
+botShadowColor index 10
+controlPv "$(device):CMD:safe"
+indicatorPv "$(device):CMD:safe"
+onLabel "Safe"
+buttonType "push"
+3d
+font "helvetica-medium-r-10.0"
+objType "controls"
+endObjectProperties
+
+# (Button)
+object activeButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 322
+y 225
+w 67
+h 22
+fgColor index 14
+onColor index 61
+offColor index 61
+inconsistentColor index 57
+topShadowColor index 0
+botShadowColor index 10
+controlPv "$(device):CMD:back"
+indicatorPv "$(device):CMD:back"
+onLabel "Back"
+buttonType "push"
+3d
+font "helvetica-medium-r-10.0"
+objType "controls"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 822
+y -25
+w 74
+h 12
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Text description"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 822
+y -25
+w 74
+h 12
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Text description"
+}
+autoSize
+endObjectProperties
+
+# (Button)
+object activeButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 322
+y 198
+w 67
+h 22
+fgColor index 14
+onColor index 40
+offColor index 40
+inconsistentColor index 14
+topShadowColor index 0
+botShadowColor index 10
+controlPv "$(device):CMD:reset"
+indicatorPv "$(device):CMD:reset"
+onLabel "Reset"
+buttonType "push"
+3d
+font "helvetica-medium-r-10.0"
+objType "controls"
+endObjectProperties
+
+# (Button)
+object activeButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 248
+y 277
+w 67
+h 22
+fgColor index 14
+onColor index 59
+offColor index 59
+inconsistentColor index 14
+topShadowColor index 0
+botShadowColor index 10
+controlPv "$(device):CMD:home"
+indicatorPv "$(device):CMD:home"
+onLabel "Home"
+buttonType "push"
+3d
+font "helvetica-medium-r-10.0"
+objType "controls"
+endObjectProperties
+
+# (Button)
+object activeButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 524
+y 6
+w 72
+h 25
+fgColor index 14
+onColor index 40
+offColor index 40
+inconsistentColor index 2
+topShadowColor index 0
+botShadowColor index 10
+controlPv "$(device):CMD:power"
+onLabel "Arm Power"
+offLabel "Arm Power"
+labelType "literal"
+buttonType "push"
+3d
+font "helvetica-medium-r-10.0"
+objType "controls"
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 40
+y 171
+w 181
+h 15
+
+beginGroup
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 59
+y 171
+w 162
+h 15
+controlPv "$(device):INP:colSensor.DESC"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+limitsFromDb
+nullColor index 0
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 40
+y 171
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 92
+alarmPv "$(device):INP:colSensor"
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 40
+y 228
+w 181
+h 15
+
+beginGroup
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 59
+y 228
+w 162
+h 15
+controlPv "$(device):STATE:traj.DESC"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+limitsFromDb
+nullColor index 0
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 40
+y 228
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 92
+alarmPv "$(device):STATE:traj"
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 40
+y 152
+w 181
+h 15
+
+beginGroup
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 59
+y 152
+w 162
+h 15
+controlPv "$(device):INP:emerg.DESC"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+limitsFromDb
+nullColor index 0
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 40
+y 152
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 92
+alarmPv "$(device):INP:emerg"
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 40
+y 190
+w 181
+h 15
+
+beginGroup
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 59
+y 190
+w 162
+h 15
+controlPv "$(device):INP:smplOnGonio.DESC"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+limitsFromDb
+nullColor index 0
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 40
+y 190
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 92
+alarmPv "$(device):INP:smplOnGonio"
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 40
+y 246
+w 181
+h 15
+
+beginGroup
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 59
+y 246
+w 162
+h 15
+controlPv "$(device):INP:gonioRdy.DESC"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+limitsFromDb
+nullColor index 0
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 40
+y 246
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 83
+alarmPv "$(device):INP:gonioRdy"
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 21
+y 152
+w 15
+h 127
+lineColor index 5
+fill
+fillColor index 5
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 40
+y 209
+w 181
+h 15
+
+beginGroup
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 59
+y 209
+w 162
+h 15
+controlPv "$(device):INP:heartbeat.DESC"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+limitsFromDb
+nullColor index 0
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 40
+y 209
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 102
+alarmPv "$(device):INP:heartbeat"
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 507
+y 45
+w 112
+h 41
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 507
+y 45
+w 112
+h 41
+lineColor index 14
+fill
+fillColor index 9
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 509
+y 47
+w 103
+h 14
+controlPv "$(device):INP:cryoLevel.DESC"
+format "string"
+font "helvetica-medium-r-10.0"
+fgColor index 5
+bgColor index 0
+useDisplayBg
+nullColor index 0
+smartRefresh
+newPos
+objType "monitors"
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 508
+y 60
+w 109
+h 25
+controlPv "$(device):INP:cryoLevel"
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+fgColor index 153
+bgColor index 9
+useDisplayBg
+limitsFromDb
+nullColor index 0
+colorPv "$(device):INP:cryoLevel"
+smartRefresh
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 18
+y 450
+w 101
+h 20
+
+beginGroup
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 18
+y 450
+w 46
+h 20
+controlPv "$(device):STATE:posX"
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+fgColor index 35
+bgColor index 10
+limitsFromDb
+nullColor index 0
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 68
+y 454
+w 51
+h 12
+controlPv "$(device):STATE:posX.DESC"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "controls"
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 18
+y 474
+w 101
+h 20
+
+beginGroup
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 68
+y 478
+w 51
+h 12
+controlPv "$(device):STATE:posY.DESC"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "controls"
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 18
+y 474
+w 46
+h 20
+controlPv "$(device):STATE:posY"
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+fgColor index 35
+bgColor index 10
+limitsFromDb
+nullColor index 0
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 18
+y 498
+w 101
+h 20
+
+beginGroup
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 68
+y 502
+w 51
+h 12
+controlPv "$(device):STATE:posZ.DESC"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "controls"
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 18
+y 498
+w 46
+h 20
+controlPv "$(device):STATE:posZ"
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+fgColor index 35
+bgColor index 10
+limitsFromDb
+nullColor index 0
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 124
+y 449
+w 101
+h 20
+
+beginGroup
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 174
+y 453
+w 51
+h 12
+controlPv "$(device):STATE:posRX.DESC"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "controls"
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 124
+y 449
+w 46
+h 20
+controlPv "$(device):STATE:posRX"
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+fgColor index 35
+bgColor index 10
+limitsFromDb
+nullColor index 0
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 124
+y 473
+w 101
+h 20
+
+beginGroup
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 174
+y 477
+w 51
+h 12
+controlPv "$(device):STATE:posRY.DESC"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "controls"
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 124
+y 473
+w 46
+h 20
+controlPv "$(device):STATE:posRY"
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+fgColor index 35
+bgColor index 10
+limitsFromDb
+nullColor index 0
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 124
+y 497
+w 101
+h 20
+
+beginGroup
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 174
+y 501
+w 51
+h 12
+controlPv "$(device):STATE:posRZ.DESC"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "controls"
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 124
+y 497
+w 46
+h 20
+controlPv "$(device):STATE:posRZ"
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+fgColor index 35
+bgColor index 10
+limitsFromDb
+nullColor index 0
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 11
+y 439
+w 222
+h 100
+lineColor index 5
+fillColor index 0
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 242
+y 544
+w 452
+h 24
+controlPv "$(device):WARNING"
+font "helvetica-medium-r-10.0"
+fgColor index 40
+bgColor index 9
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "controls"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 241
+y 439
+w 462
+h 100
+lineColor index 5
+fillColor index 0
+endObjectProperties
+
+# (Button)
+object activeButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 349
+y 506
+w 96
+h 24
+fgColor index 14
+onColor index 1
+offColor index 1
+inconsistentColor index 14
+topShadowColor index 0
+botShadowColor index 10
+controlPv "$(device):CMD:savePos"
+indicatorPv "$(device):CMD:savePos"
+onLabel "Save Position"
+buttonType "push"
+3d
+font "helvetica-medium-r-10.0"
+objType "controls"
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 247
+y 493
+w 96
+h 12
+controlPv "$(device):PAR:posTol.DESC"
+font "helvetica-medium-r-10.0"
+fgColor index 12
+bgColor index 0
+useDisplayBg
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "controls"
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 247
+y 506
+w 96
+h 23
+controlPv "$(device):PAR:posTol"
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 0
+editable
+limitsFromDb
+nullColor index 0
+useKp
+useHexPrefix
+newPos
+objType "controls"
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 247
+y 450
+w 96
+h 12
+controlPv "$(device):PAR:posName.DESC"
+font "helvetica-medium-r-10.0"
+fgColor index 12
+bgColor index 0
+useDisplayBg
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "controls"
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 247
+y 464
+w 96
+h 23
+controlPv "$(device):PAR:posName"
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 0
+editable
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "controls"
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 350
+y 451
+w 96
+h 11
+controlPv "$(device):PAR:posForce.DESC"
+font "helvetica-medium-r-10.0"
+fgColor index 12
+bgColor index 0
+useDisplayBg
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "controls"
+endObjectProperties
+
+# (Choice Button)
+object activeChoiceButtonClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 349
+y 463
+w 96
+h 24
+fgColor index 14
+bgColor index 56
+selectColor index 55
+inconsistentColor index 14
+topShadowColor index 0
+botShadowColor index 14
+controlPv "$(device):PAR:posForce"
+indicatorPv "$(device):PAR:posForce"
+font "helvetica-medium-r-10.0"
+orientation "horizontal"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 17
+y 434
+w 65
+h 12
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 3
+value {
+  "Arm Positions"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 250
+y 434
+w 78
+h 12
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 3
+value {
+  "Named Positions"
+}
+autoSize
+endObjectProperties
+
+# (Button)
+object activeButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 327
+y 277
+w 67
+h 22
+fgColor index 14
+onColor index 55
+offColor index 55
+inconsistentColor index 14
+topShadowColor index 0
+botShadowColor index 57
+controlPv "$(device):CMD:dry"
+indicatorPv "$(device):CMD:dry"
+onLabel "Dry"
+buttonType "push"
+3d
+font "helvetica-medium-r-10.0"
+objType "controls"
+endObjectProperties
+
+# (Multi-line Text Update)
+object multiLineTextUpdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 11
+y 573
+w 732
+h 36
+controlPv "$(device):HELP"
+fgColour index 30
+bgColour index 9
+fill
+font "helvetica-medium-r-10.0"
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 507
+y 96
+w 112
+h 41
+
+beginGroup
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 507
+y 96
+w 112
+h 41
+lineColor index 14
+fill
+fillColor index 9
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 509
+y 98
+w 103
+h 14
+controlPv "$(device):STATE:onTool.DESC"
+format "string"
+font "helvetica-medium-r-10.0"
+fgColor index 5
+bgColor index 0
+useDisplayBg
+nullColor index 0
+smartRefresh
+newPos
+objType "monitors"
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 508
+y 111
+w 109
+h 25
+controlPv "$(device):STATE:onTool"
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+fgColor index 36
+bgColor index 9
+useDisplayBg
+limitsFromDb
+nullColor index 0
+smartRefresh
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Button)
+object activeButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 327
+y 305
+w 67
+h 22
+fgColor index 14
+onColor index 1
+offColor index 1
+inconsistentColor index 14
+topShadowColor index 0
+botShadowColor index 10
+controlPv "$(device):CMD:restart"
+indicatorPv "$(device):CMD:restart"
+onLabel "Restart"
+buttonType "push"
+3d
+font "helvetica-medium-r-10.0"
+objType "controls"
+endObjectProperties
+
+# (Button)
+object activeButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 698
+y 544
+w 45
+h 24
+fgColor index 14
+onColor index 40
+offColor index 40
+inconsistentColor index 14
+topShadowColor index 0
+botShadowColor index 10
+controlPv "$(device):CMD:reset"
+indicatorPv "$(device):CMD:reset"
+onLabel "Reset"
+buttonType "push"
+3d
+font "helvetica-medium-r-10.0"
+objType "controls"
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 40
+y 264
+w 181
+h 15
+
+beginGroup
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 59
+y 264
+w 162
+h 15
+controlPv "$(device):STATE:lidOpen.DESC"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+limitsFromDb
+nullColor index 0
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 40
+y 264
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 92
+alarmPv "$(device):STATE:lidOpen"
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 22
+y 291
+w 200
+h 15
+
+beginGroup
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 60
+y 291
+w 162
+h 15
+controlPv "$(device):CMD:running.DESC"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+limitsFromDb
+nullColor index 0
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+endObjectProperties
+
+# (Button)
+object activeButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 22
+y 291
+w 15
+h 15
+fgColor index 14
+onColor index 52
+offColor index 52
+inconsistentColor index 10
+topShadowColor index 1
+botShadowColor index 10
+controlPv "$(device):CMD:running"
+labelType "literal"
+buttonType "push"
+font "helvetica-medium-r-10.0"
+objType "controls"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 41
+y 291
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 92
+alarmPv "$(device):STATE:running"
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 22
+y 309
+w 200
+h 15
+
+beginGroup
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 60
+y 309
+w 162
+h 15
+controlPv "$(device):CMD:approach.DESC"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+limitsFromDb
+nullColor index 0
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+endObjectProperties
+
+# (Button)
+object activeButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 22
+y 309
+w 15
+h 15
+fgColor index 14
+onColor index 52
+offColor index 52
+inconsistentColor index 10
+topShadowColor index 1
+botShadowColor index 10
+controlPv "$(device):CMD:approach"
+labelType "literal"
+buttonType "push"
+font "helvetica-medium-r-10.0"
+objType "controls"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 41
+y 309
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 92
+alarmPv "$(device):STATE:approach"
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 22
+y 345
+w 200
+h 15
+
+beginGroup
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 60
+y 345
+w 162
+h 15
+controlPv "$(device):CMD:speed.DESC"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+limitsFromDb
+nullColor index 0
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+endObjectProperties
+
+# (Button)
+object activeButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 22
+y 345
+w 15
+h 15
+fgColor index 14
+onColor index 52
+offColor index 52
+inconsistentColor index 10
+topShadowColor index 1
+botShadowColor index 10
+controlPv "$(device):CMD:speed"
+labelType "literal"
+buttonType "push"
+font "helvetica-medium-r-10.0"
+objType "controls"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 41
+y 345
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 92
+alarmPv "$(device):STATE:remSpeed"
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 22
+y 381
+w 200
+h 15
+
+beginGroup
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 60
+y 381
+w 162
+h 15
+controlPv "$(device):CMD:heater.DESC"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+limitsFromDb
+nullColor index 0
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+endObjectProperties
+
+# (Button)
+object activeButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 22
+y 381
+w 15
+h 15
+fgColor index 14
+onColor index 52
+offColor index 52
+inconsistentColor index 10
+topShadowColor index 1
+botShadowColor index 10
+controlPv "$(device):CMD:heater"
+labelType "literal"
+buttonType "push"
+font "helvetica-medium-r-10.0"
+objType "controls"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 41
+y 381
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 92
+alarmPv "$(device):STATE:heater"
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 22
+y 399
+w 200
+h 15
+
+beginGroup
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 60
+y 399
+w 162
+h 15
+controlPv "$(device):CMD:tool.DESC"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+limitsFromDb
+nullColor index 0
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+endObjectProperties
+
+# (Button)
+object activeButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 22
+y 399
+w 15
+h 15
+fgColor index 14
+onColor index 52
+offColor index 52
+inconsistentColor index 10
+topShadowColor index 1
+botShadowColor index 10
+controlPv "$(device):CMD:tool"
+labelType "literal"
+buttonType "push"
+font "helvetica-medium-r-10.0"
+objType "controls"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 41
+y 399
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 92
+alarmPv "$(device):CMD:tool"
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 22
+y 362
+w 176
+h 17
+
+beginGroup
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 60
+y 362
+w 138
+h 17
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Speed Adjustment"
+}
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 22
+y 362
+w 35
+h 17
+
+beginGroup
+
+# (Button)
+object activeButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 40
+y 362
+w 17
+h 17
+fgColor index 14
+onColor index 40
+offColor index 40
+inconsistentColor index 14
+topShadowColor index 0
+botShadowColor index 14
+controlPv "$(device):CMD:faster"
+onLabel "^"
+offLabel "^"
+labelType "literal"
+buttonType "push"
+3d
+font "helvetica-medium-r-10.0"
+objType "controls"
+endObjectProperties
+
+# (Button)
+object activeButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 22
+y 362
+w 17
+h 17
+fgColor index 14
+onColor index 40
+offColor index 40
+inconsistentColor index 14
+topShadowColor index 0
+botShadowColor index 14
+controlPv "$(device):CMD:slower"
+onLabel "V"
+offLabel "V"
+labelType "literal"
+buttonType "push"
+3d
+font "helvetica-medium-r-10.0"
+objType "controls"
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 251
+y 398
+w 107
+h 20
+
+beginGroup
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 305
+y 399
+w 54
+h 19
+controlPv "$(device):PAR:plate.DESC"
+font "helvetica-medium-r-10.0"
+fgColor index 12
+bgColor index 0
+useDisplayBg
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "controls"
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 251
+y 398
+w 51
+h 19
+controlPv "$(device):PAR:plate"
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 0
+editable
+limitsFromDb
+nullColor index 0
+useKp
+useHexPrefix
+useAlarmBorder
+newPos
+objType "controls"
+endObjectProperties
+
+endGroup
+
+visPv "$(device):STATE:tool"
+visMin "3"
+visMax "4"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 466
+y 462
+w 110
+h 60
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "Required Positions:"
+  "SOAK"
+  "HOME "
+  "HOME A"
+  "HOME B .. one per tool"
+}
+autoSize
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 305
+y 351
+w 54
+h 19
+controlPv "$(device):PAR:puck.DESC"
+font "helvetica-medium-r-10.0"
+fgColor index 12
+bgColor index 0
+useDisplayBg
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "controls"
+id "c"
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 251
+y 351
+w 51
+h 19
+controlPv "$(device):PAR:puck"
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 0
+editable
+limitsFromDb
+nullColor index 0
+useKp
+useHexPrefix
+useAlarmBorder
+newPos
+objType "controls"
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 621
+y 350
+w 69
+h 69
+
+beginGroup
+
+# (Button)
+object activeButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 621
+y 350
+w 69
+h 21
+fgColor index 14
+onColor index 51
+offColor index 51
+inconsistentColor index 14
+topShadowColor index 0
+botShadowColor index 10
+controlPv "$(device):CMD:get"
+indicatorPv "$(device):CMD:get"
+onLabel "Get"
+buttonType "push"
+3d
+font "helvetica-medium-r-10.0"
+objType "controls"
+endObjectProperties
+
+# (Button)
+object activeButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 621
+y 374
+w 69
+h 21
+fgColor index 14
+onColor index 51
+offColor index 51
+inconsistentColor index 14
+topShadowColor index 0
+botShadowColor index 10
+controlPv "$(device):CMD:put"
+indicatorPv "$(device):CMD:put"
+onLabel "Put"
+buttonType "push"
+3d
+font "helvetica-medium-r-10.0"
+objType "controls"
+endObjectProperties
+
+# (Button)
+object activeButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 621
+y 398
+w 69
+h 21
+fgColor index 14
+onColor index 51
+offColor index 51
+inconsistentColor index 14
+topShadowColor index 0
+botShadowColor index 10
+controlPv "$(device):CMD:getPut"
+indicatorPv "$(device):CMD:getPut"
+onLabel "Get Put"
+buttonType "push"
+3d
+font "helvetica-medium-r-10.0"
+objType "controls"
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 251
+y 375
+w 108
+h 19
+
+beginGroup
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 305
+y 375
+w 54
+h 19
+controlPv "$(device):PAR:smpl.DESC"
+font "helvetica-medium-r-10.0"
+fgColor index 12
+bgColor index 0
+useDisplayBg
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "controls"
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 251
+y 375
+w 51
+h 19
+controlPv "$(device):PAR:smpl"
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 0
+editable
+limitsFromDb
+nullColor index 0
+useKp
+useHexPrefix
+useAlarmBorder
+newPos
+objType "controls"
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 422
+y 375
+w 64
+h 19
+controlPv "$(device):PAR:nextSmpl.DESC"
+font "helvetica-medium-r-10.0"
+fgColor index 12
+bgColor index 0
+useDisplayBg
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "controls"
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 368
+y 375
+w 51
+h 19
+controlPv "$(device):PAR:nextSmpl"
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 0
+editable
+limitsFromDb
+nullColor index 0
+useKp
+useHexPrefix
+useAlarmBorder
+newPos
+objType "controls"
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 422
+y 351
+w 54
+h 19
+controlPv "$(device):PAR:nextPuck.DESC"
+font "helvetica-medium-r-10.0"
+fgColor index 12
+bgColor index 0
+useDisplayBg
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "controls"
+id "c"
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 368
+y 351
+w 51
+h 19
+controlPv "$(device):PAR:nextPuck"
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 0
+editable
+limitsFromDb
+nullColor index 0
+useKp
+useHexPrefix
+useAlarmBorder
+newPos
+objType "controls"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 712
+y 377
+w 173
+h 161
+lineColor index 5
+fillColor index 1
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 712
+y 145
+w 174
+h 218
+lineColor index 5
+fillColor index 1
+endObjectProperties
+
+# (Button)
+object activeButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 748
+y 242
+w 100
+h 25
+fgColor index 14
+onColor index 69
+offColor index 69
+inconsistentColor index 57
+topShadowColor index 0
+botShadowColor index 10
+controlPv "$(device):CMD:toolCal"
+indicatorPv "$(device):CMD:toolCal"
+onLabel "Calibrate"
+buttonType "push"
+3d
+font "helvetica-medium-r-10.0"
+objType "controls"
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 710
+y 391
+w 176
+h 9
+controlPv "$(device):STATE:pucks"
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+autoHeight
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "controls"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 717
+y 373
+w 70
+h 12
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 3
+value {
+  "Puck Detection"
+}
+autoSize
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 722
+y 141
+w 77
+h 12
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 3
+value {
+  "Tools/Calibration"
+}
+autoSize
+endObjectProperties
+
+# (Button)
+object activeButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 748
+y 296
+w 100
+h 25
+fgColor index 14
+onColor index 69
+offColor index 69
+inconsistentColor index 57
+topShadowColor index 0
+botShadowColor index 10
+controlPv "$(device):CMD:teachPuck"
+indicatorPv "$(device):CMD:teachPuck"
+onLabel "Teach Puck"
+buttonType "push"
+3d
+font "helvetica-medium-r-10.0"
+objType "controls"
+endObjectProperties
+
+# (Button)
+object activeButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 748
+y 269
+w 100
+h 25
+fgColor index 14
+onColor index 69
+offColor index 69
+inconsistentColor index 57
+topShadowColor index 0
+botShadowColor index 10
+controlPv "$(device):CMD:teachGonio"
+indicatorPv "$(device):CMD:teachGonio"
+onLabel "Teach Gonio"
+buttonType "push"
+3d
+font "helvetica-medium-r-10.0"
+objType "controls"
+endObjectProperties
+
+# (Button)
+object activeButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 748
+y 215
+w 100
+h 25
+fgColor index 14
+onColor index 69
+offColor index 69
+inconsistentColor index 57
+topShadowColor index 0
+botShadowColor index 10
+controlPv "$(device):CMD:chgTool"
+indicatorPv "$(device):CMD:chgTool"
+onLabel "Change Tool"
+buttonType "push"
+3d
+font "helvetica-medium-r-10.0"
+objType "controls"
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 749
+y 164
+w 100
+h 41
+
+beginGroup
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 749
+y 164
+w 73
+h 19
+controlPv "$(device):PAR:tool.DESC"
+font "helvetica-medium-r-10.0"
+fgColor index 9
+bgColor index 0
+useDisplayBg
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "controls"
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 749
+y 184
+w 100
+h 21
+controlPv "$(device):PAR:tool"
+format "gfloat"
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 0
+editable
+limitsFromDb
+nullColor index 0
+useKp
+useHexPrefix
+useAlarmBorder
+newPos
+objType "controls"
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 422
+y 400
+w 54
+h 19
+controlPv "$(device):PAR:dataMatScan.DESC"
+font "helvetica-medium-r-10.0"
+fgColor index 12
+bgColor index 0
+useDisplayBg
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "controls"
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 368
+y 399
+w 51
+h 19
+controlPv "$(device):PAR:dataMatScan"
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 0
+editable
+limitsFromDb
+nullColor index 0
+useKp
+useHexPrefix
+useAlarmBorder
+newPos
+objType "controls"
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 542
+y 400
+w 54
+h 19
+controlPv "$(device):PAR:jaw.DESC"
+font "helvetica-medium-r-10.0"
+fgColor index 12
+bgColor index 0
+useDisplayBg
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "controls"
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 488
+y 399
+w 51
+h 19
+controlPv "$(device):PAR:jaw"
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 0
+editable
+limitsFromDb
+nullColor index 0
+useKp
+useHexPrefix
+useAlarmBorder
+newPos
+objType "controls"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 552
+y 191
+w 152
+h 146
+lineColor index 5
+fillColor index 1
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 562
+y 199
+w 100
+h 86
+
+beginGroup
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 562
+y 199
+w 73
+h 19
+controlPv "$(device):PAR:smplType.DESC"
+font "helvetica-medium-r-10.0"
+fgColor index 9
+bgColor index 0
+useDisplayBg
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "controls"
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 562
+y 219
+w 100
+h 21
+controlPv "$(device):PAR:smplType"
+format "gfloat"
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 0
+editable
+limitsFromDb
+nullColor index 0
+useKp
+useHexPrefix
+useAlarmBorder
+newPos
+objType "controls"
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 562
+y 244
+w 83
+h 19
+controlPv "$(device):PAR:nextSmplType.DESC"
+font "helvetica-medium-r-10.0"
+fgColor index 9
+bgColor index 0
+useDisplayBg
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "controls"
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 562
+y 264
+w 100
+h 21
+controlPv "$(device):PAR:nextSmplType"
+format "gfloat"
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 0
+editable
+limitsFromDb
+nullColor index 0
+useKp
+useHexPrefix
+useAlarmBorder
+newPos
+objType "controls"
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Button)
+object activeButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 447
+y 6
+w 72
+h 25
+fgColor index 14
+onColor index 40
+offColor index 40
+inconsistentColor index 2
+topShadowColor index 0
+botShadowColor index 10
+controlPv "$(device):CMD:reboot"
+onLabel "Reboot"
+offLabel "Reboot"
+labelType "literal"
+buttonType "push"
+3d
+font "helvetica-medium-r-10.0"
+objType "controls"
+endObjectProperties
+
+# (Button)
+object activeButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 396
+y 198
+w 67
+h 22
+fgColor index 14
+onColor index 40
+offColor index 40
+inconsistentColor index 14
+topShadowColor index 0
+botShadowColor index 10
+controlPv "$(device):CMD:recover"
+indicatorPv "$(device):CMD:recover"
+onLabel "Recover"
+buttonType "push"
+3d
+font "helvetica-medium-r-10.0"
+objType "controls"
+endObjectProperties
+
+# (Button)
+object activeButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 469
+y 305
+w 67
+h 22
+fgColor index 14
+onColor index 73
+offColor index 73
+inconsistentColor index 14
+topShadowColor index 0
+botShadowColor index 57
+controlPv "$(device):CMD:barcode"
+indicatorPv "$(device):CMD:barcode"
+onLabel "Barcode"
+buttonType "push"
+3d
+font "helvetica-medium-r-10.0"
+objType "controls"
+endObjectProperties
+
+# (Button)
+object activeButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 469
+y 277
+w 67
+h 22
+fgColor index 14
+onColor index 63
+offColor index 63
+inconsistentColor index 14
+topShadowColor index 0
+botShadowColor index 10
+controlPv "$(device):CMD:soak"
+indicatorPv "$(device):CMD:soak"
+onLabel "Soak"
+buttonType "push"
+3d
+font "helvetica-medium-r-10.0"
+objType "controls"
+endObjectProperties
+
+# (Button)
+object activeButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 470
+y 253
+w 67
+h 22
+fgColor index 14
+onColor index 63
+offColor index 63
+inconsistentColor index 14
+topShadowColor index 0
+botShadowColor index 10
+controlPv "$(device):CMD:pick"
+indicatorPv "$(device):CMD:pick"
+onLabel "Pick"
+buttonType "push"
+3d
+font "helvetica-medium-r-10.0"
+objType "controls"
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 471
+y 198
+w 67
+h 49
+
+beginGroup
+
+# (Button)
+object activeButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 471
+y 198
+w 67
+h 22
+fgColor index 123
+onColor index 45
+offColor index 45
+inconsistentColor index 14
+topShadowColor index 0
+botShadowColor index 10
+controlPv "$(device):CMD:clear"
+indicatorPv "$(device):CMD:clear"
+onLabel "Clear"
+buttonType "push"
+3d
+font "helvetica-medium-r-10.0"
+objType "controls"
+endObjectProperties
+
+# (Button)
+object activeButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 471
+y 225
+w 67
+h 22
+fgColor index 35
+onColor index 20
+offColor index 20
+inconsistentColor index 14
+topShadowColor index 0
+botShadowColor index 10
+controlPv "$(device):CMD:panic"
+indicatorPv "$(device):CMD:panic"
+onLabel "Panic"
+buttonType "push"
+3d
+font "helvetica-medium-r-10.0"
+objType "controls"
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Button)
+object activeButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 748
+y 323
+w 100
+h 25
+fgColor index 14
+onColor index 69
+offColor index 69
+inconsistentColor index 57
+topShadowColor index 0
+botShadowColor index 10
+controlPv "$(device):CMD:teachDewar"
+indicatorPv "$(device):CMD:teachDewar"
+onLabel "Teach Dewar"
+buttonType "push"
+3d
+font "helvetica-medium-r-10.0"
+objType "controls"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 894
+y 145
+w 193
+h 393
+lineColor index 5
+fillColor index 1
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 902
+y 141
+w 58
+h 12
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 3
+value {
+  "Maintenance"
+}
+autoSize
+endObjectProperties
+
+# (Button)
+object activeButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 560
+y 305
+w 67
+h 22
+fgColor index 14
+onColor index 55
+offColor index 55
+inconsistentColor index 57
+topShadowColor index 0
+botShadowColor index 10
+controlPv "$(device):CMD:setToolSmpl"
+indicatorPv "$(device):CMD:setToolSmpl"
+onLabel "Set Tool"
+buttonType "push"
+3d
+font "helvetica-medium-r-10.0"
+objType "controls"
+endObjectProperties
+
+# (Button)
+object activeButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 632
+y 305
+w 67
+h 22
+fgColor index 14
+onColor index 55
+offColor index 55
+inconsistentColor index 57
+topShadowColor index 0
+botShadowColor index 10
+controlPv "$(device):CMD:setDiffSmpl"
+indicatorPv "$(device):CMD:setDiffSmpl"
+onLabel "Set Sample"
+buttonType "push"
+3d
+font "helvetica-medium-r-10.0"
+objType "controls"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 631
+y 96
+w 112
+h 41
+lineColor index 14
+fill
+fillColor index 9
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 633
+y 98
+w 103
+h 14
+controlPv "$(device):STATE:speed.DESC"
+format "string"
+font "helvetica-medium-r-10.0"
+fgColor index 5
+bgColor index 0
+useDisplayBg
+nullColor index 0
+smartRefresh
+newPos
+objType "monitors"
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 632
+y 111
+w 109
+h 25
+controlPv "$(device):STATE:speed"
+format "float"
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+fgColor index 36
+bgColor index 9
+useDisplayBg
+limitsFromDb
+nullColor index 0
+colorPv "$(device):STATE:speed"
+smartRefresh
+fastUpdate
+useHexPrefix
+showUnits
+newPos
+objType "controls"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 755
+y 96
+w 112
+h 41
+lineColor index 14
+fill
+fillColor index 9
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 758
+y 111
+w 109
+h 25
+controlPv "$(device):STATE:barcode"
+format "float"
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+fgColor index 36
+bgColor index 9
+useDisplayBg
+limitsFromDb
+nullColor index 0
+colorPv "$(device):STATE:barcode"
+smartRefresh
+fastUpdate
+useHexPrefix
+newPos
+objType "controls"
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 758
+y 98
+w 103
+h 14
+controlPv "$(device):STATE:barcode.DESC"
+format "string"
+font "helvetica-medium-r-10.0"
+fgColor index 5
+bgColor index 0
+useDisplayBg
+nullColor index 0
+smartRefresh
+newPos
+objType "monitors"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 243
+y 145
+w 228
+h 29
+lineColor index 9
+fillColor index 0
+endObjectProperties
+
+# (Button)
+object activeButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 391
+y 145
+w 81
+h 30
+fgColor index 14
+onColor index 50
+offColor index 50
+inconsistentColor index 14
+topShadowColor index 0
+botShadowColor index 10
+controlPv "$(device):CMD:mount"
+indicatorPv "$(device):CMD:mount"
+onLabel "Mount"
+buttonType "push"
+3d
+font "helvetica-medium-r-10.0"
+objType "controls"
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 244
+y 147
+w 71
+h 26
+controlPv "$(device):PAR:nextPort"
+format "string"
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 0
+editable
+nullColor index 0
+smartRefresh
+useKp
+changeValOnLoseFocus
+useHexPrefix
+newPos
+objType "controls"
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 318
+y 147
+w 71
+h 26
+controlPv "$(device):PAR:nextAfterPort"
+format "string"
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 0
+editable
+nullColor index 0
+smartRefresh
+useKp
+changeValOnLoseFocus
+useHexPrefix
+newPos
+objType "controls"
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 785
+y 488
+w 24
+h 24
+lineColor index 14
+fill
+fillColor index 92
+alarmPv "$(device):STATE:pucks:bit1.B8"
+visPv "$(device):STATE:pucks:bit1.B8"
+visInvert
+visMax "1"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 791
+y 494
+w 13
+h 12
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "3E"
+}
+autoSize
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 811
+y 488
+w 24
+h 24
+lineColor index 14
+fill
+fillColor index 0
+alarmPv "$(device):STATE:pucks:bit1.B9"
+visPv "$(device):STATE:pucks:bit1.B9"
+visInvert
+visMax "1"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 817
+y 494
+w 13
+h 12
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "4E"
+}
+autoSize
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 836
+y 488
+w 24
+h 24
+lineColor index 14
+fill
+fillColor index 92
+alarmPv "$(device):STATE:pucks:bit1.BA"
+visPv "$(device):STATE:pucks:bit1.BA"
+visInvert
+visMax "1"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 842
+y 494
+w 13
+h 12
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "5E"
+}
+autoSize
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 760
+y 488
+w 24
+h 24
+lineColor index 14
+fill
+fillColor index 92
+alarmPv "$(device):STATE:pucks:bit1.B7"
+visPv "$(device):STATE:pucks:bit1.B7"
+visInvert
+visMin "0"
+visMax "1"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 766
+y 494
+w 13
+h 12
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "2E"
+}
+autoSize
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 735
+y 488
+w 24
+h 24
+lineColor index 14
+fill
+fillColor index 92
+alarmPv "$(device):STATE:pucks:bit1.B6"
+visPv "$(device):STATE:pucks:bit1.B6"
+visInvert
+visMax "1"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 741
+y 494
+w 13
+h 12
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "1E"
+}
+autoSize
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 799
+y 509
+w 24
+h 24
+lineColor index 14
+fill
+fillColor index 92
+alarmPv "$(device):STATE:pucks:bit1.BC"
+visPv "$(device):STATE:pucks:bit1.BC"
+visInvert
+visMax "1"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 805
+y 515
+w 12
+h 12
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "2F"
+}
+autoSize
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 773
+y 509
+w 24
+h 24
+lineColor index 14
+fill
+fillColor index 92
+alarmPv "$(device):STATE:pucks:bit1.BB"
+visPv "$(device):STATE:pucks:bit1.BB"
+visInvert
+visMax "1"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 779
+y 515
+w 12
+h 12
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "1F"
+}
+autoSize
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 849
+y 468
+w 24
+h 24
+lineColor index 14
+fill
+fillColor index 92
+alarmPv "$(device):STATE:pucks:bit1.B5"
+visPv "$(device):STATE:pucks:bit1.B5"
+visInvert
+visMax "1"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 855
+y 474
+w 14
+h 12
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "6D"
+}
+autoSize
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 799
+y 468
+w 24
+h 24
+lineColor index 14
+fill
+fillColor index 92
+alarmPv "$(device):STATE:pucks:bit1.B3"
+visPv "$(device):STATE:pucks:bit1.B3"
+visInvert
+visMax "1"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 805
+y 474
+w 14
+h 12
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "4D"
+}
+autoSize
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 773
+y 468
+w 24
+h 24
+lineColor index 14
+fill
+fillColor index 92
+alarmPv "$(device):STATE:pucks:bit1.B2"
+visPv "$(device):STATE:pucks:bit1.B2"
+visInvert
+visMax "1"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 779
+y 474
+w 14
+h 12
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "3D"
+}
+autoSize
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 836
+y 447
+w 24
+h 24
+lineColor index 14
+fill
+fillColor index 92
+alarmPv "$(device):STATE:pucks:bit0.BF"
+visPv "$(device):STATE:pucks:bit0.BF"
+visInvert
+visMax "1"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 842
+y 453
+w 14
+h 12
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "5C"
+}
+autoSize
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 811
+y 447
+w 24
+h 24
+lineColor index 14
+fill
+fillColor index 92
+alarmPv "$(device):STATE:pucks:bit0.BE"
+visPv "$(device):STATE:pucks:bit0.BE"
+visInvert
+visMax "1"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 817
+y 453
+w 14
+h 12
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "4C"
+}
+autoSize
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 785
+y 447
+w 24
+h 24
+lineColor index 14
+fill
+fillColor index 92
+alarmPv "$(device):STATE:pucks:bit0.BD"
+visPv "$(device):STATE:pucks:bit0.BD"
+visInvert
+visMax "1"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 791
+y 453
+w 14
+h 12
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "3C"
+}
+autoSize
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 760
+y 447
+w 24
+h 24
+lineColor index 14
+fill
+fillColor index 92
+alarmPv "$(device):STATE:pucks:bit0.BC"
+visPv "$(device):STATE:pucks:bit0.BC"
+visInvert
+visMax "1"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 766
+y 453
+w 14
+h 12
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "2C"
+}
+autoSize
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 735
+y 447
+w 24
+h 24
+lineColor index 14
+fill
+fillColor index 92
+alarmPv "$(device):STATE:pucks:bit0.BB"
+visPv "$(device):STATE:pucks:bit0.BB"
+visInvert
+visMax "1"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 741
+y 453
+w 14
+h 12
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "1C"
+}
+autoSize
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 749
+y 428
+w 24
+h 24
+lineColor index 14
+fill
+fillColor index 92
+alarmPv "$(device):STATE:pucks:bit0.B6"
+visPv "$(device):STATE:pucks:bit0.B6"
+visInvert
+visMax "1"
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 724
+y 428
+w 24
+h 24
+lineColor index 14
+fill
+fillColor index 92
+alarmPv "$(device):STATE:pucks:bit0.B5"
+visPv "$(device):STATE:pucks:bit0.B5"
+visInvert
+visMax "1"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 730
+y 434
+w 13
+h 12
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "1B"
+}
+autoSize
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 736
+y 407
+w 24
+h 24
+lineColor index 14
+fill
+fillColor index 92
+alarmPv "$(device):STATE:pucks:bit0.B0"
+visPv "$(device):STATE:pucks:bit0.B0"
+visInvert
+visMax "1"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 742
+y 413
+w 13
+h 12
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "1A"
+}
+autoSize
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 761
+y 407
+w 24
+h 24
+lineColor index 14
+fill
+fillColor index 92
+alarmPv "$(device):STATE:pucks:bit0.B1"
+visPv "$(device):STATE:pucks:bit0.B1"
+visInvert
+visMax "1"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 767
+y 413
+w 13
+h 12
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "2A"
+}
+autoSize
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 786
+y 407
+w 24
+h 24
+lineColor index 14
+fill
+fillColor index 92
+alarmPv "$(device):STATE:pucks:bit0.B2"
+visPv "$(device):STATE:pucks:bit0.B2"
+visInvert
+visMax "1"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 792
+y 413
+w 13
+h 12
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "3A"
+}
+autoSize
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 812
+y 407
+w 24
+h 24
+lineColor index 14
+fill
+fillColor index 92
+alarmPv "$(device):STATE:pucks:bit0.B3"
+visPv "$(device):STATE:pucks:bit0.B3"
+visInvert
+visMax "1"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 818
+y 413
+w 13
+h 12
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "4A"
+}
+autoSize
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 824
+y 468
+w 24
+h 24
+lineColor index 14
+fill
+fillColor index 92
+alarmPv "$(device):STATE:pucks:bit1.B4"
+visPv "$(device):STATE:pucks:bit1.B4"
+visInvert
+visMax "1"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 830
+y 474
+w 14
+h 12
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "5D"
+}
+autoSize
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 748
+y 468
+w 24
+h 24
+lineColor index 14
+fill
+fillColor index 92
+alarmPv "$(device):STATE:pucks:bit1.B1"
+visPv "$(device):STATE:pucks:bit1.B1"
+visInvert
+visMax "1"
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 754
+y 474
+w 13
+h 12
+
+beginGroup
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 754
+y 474
+w 13
+h 12
+
+beginGroup
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 754
+y 474
+w 14
+h 12
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "2D"
+}
+autoSize
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 723
+y 468
+w 24
+h 24
+lineColor index 14
+fill
+fillColor index 92
+alarmPv "$(device):STATE:pucks:bit1.B0"
+visPv "$(device):STATE:pucks:bit1.B0"
+visInvert
+visMax "1"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 729
+y 474
+w 14
+h 12
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "1D"
+}
+autoSize
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 850
+y 428
+w 24
+h 24
+lineColor index 14
+fill
+fillColor index 92
+alarmPv "$(device):STATE:pucks:bit0.BA"
+visPv "$(device):STATE:pucks:bit0.BA"
+visInvert
+visMax "1"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 856
+y 434
+w 13
+h 12
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "6B"
+}
+autoSize
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 825
+y 428
+w 24
+h 24
+lineColor index 14
+fill
+fillColor index 92
+alarmPv "$(device):STATE:pucks:bit0.B9"
+visPv "$(device):STATE:pucks:bit0.B9"
+visInvert
+visMax "1"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 831
+y 434
+w 13
+h 12
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "5B"
+}
+autoSize
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 800
+y 428
+w 24
+h 24
+lineColor index 14
+fill
+fillColor index 92
+alarmPv "$(device):STATE:pucks:bit0.B8"
+visPv "$(device):STATE:pucks:bit0.B8"
+visInvert
+visMax "1"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 806
+y 434
+w 13
+h 12
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "4B"
+}
+autoSize
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 774
+y 428
+w 24
+h 24
+lineColor index 14
+fill
+fillColor index 92
+alarmPv "$(device):STATE:pucks:bit0.B7"
+visPv "$(device):STATE:pucks:bit0.B7"
+visInvert
+visMax "1"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 780
+y 434
+w 13
+h 12
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "3B"
+}
+autoSize
+endObjectProperties
+
+# (Group)
+object activeGroupClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 755
+y 434
+w 13
+h 12
+
+beginGroup
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 755
+y 434
+w 13
+h 12
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "2B"
+}
+autoSize
+endObjectProperties
+
+endGroup
+
+endObjectProperties
+
+# (Circle)
+object activeCircleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 837
+y 407
+w 24
+h 24
+lineColor index 14
+fill
+fillColor index 92
+alarmPv "$(device):STATE:pucks:bit0.B4"
+visPv "$(device):STATE:pucks:bit0.B4"
+visInvert
+visMax "1"
+endObjectProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 843
+y 413
+w 13
+h 12
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+value {
+  "5A"
+}
+autoSize
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 60
+y 327
+w 162
+h 15
+controlPv "$(device):CMD:autofill.DESC"
+font "helvetica-medium-r-10.0"
+fgColor index 14
+bgColor index 0
+useDisplayBg
+limitsFromDb
+nullColor index 0
+fastUpdate
+useHexPrefix
+newPos
+objType "monitors"
+endObjectProperties
+
+# (Button)
+object activeButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 22
+y 327
+w 15
+h 15
+fgColor index 14
+onColor index 52
+offColor index 52
+inconsistentColor index 10
+topShadowColor index 1
+botShadowColor index 10
+controlPv "$(device):CMD:autofill"
+labelType "literal"
+buttonType "push"
+font "helvetica-medium-r-10.0"
+objType "controls"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 41
+y 327
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 0
+alarmPv "$(device):STATE:autofill"
+visInvert
+visMax "1"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 41
+y 327
+w 15
+h 15
+lineColor index 14
+fill
+fillColor index 14
+alarmPv "$(device):STATE:autofill"
+visPv "$(device):STATE:autofill"
+visInvert
+visMax "1"
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 905
+y 405
+w 96
+h 23
+controlPv "$(device):PAR:setLowLN2"
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 0
+editable
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "controls"
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 905
+y 392
+w 96
+h 12
+controlPv "$(device):PAR:setLowLN2.DESC"
+font "helvetica-medium-r-10.0"
+fgColor index 12
+bgColor index 0
+useDisplayBg
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "controls"
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 905
+y 363
+w 96
+h 23
+controlPv "$(device):PAR:setHighLN2"
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 0
+editable
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "controls"
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 905
+y 350
+w 96
+h 12
+controlPv "$(device):PAR:setHighLN2.DESC"
+font "helvetica-medium-r-10.0"
+fgColor index 12
+bgColor index 0
+useDisplayBg
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "controls"
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 904
+y 316
+w 96
+h 23
+controlPv "$(device):PAR:setAutoDryTimer"
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 0
+editable
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "controls"
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 904
+y 303
+w 96
+h 12
+controlPv "$(device):PAR:setAutoDryTimer.DESC"
+font "helvetica-medium-r-10.0"
+fgColor index 12
+bgColor index 0
+useDisplayBg
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "controls"
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 903
+y 272
+w 96
+h 23
+controlPv "$(device):PAR:setAutoCloseLidTimer"
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 0
+editable
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "controls"
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 903
+y 259
+w 130
+h 12
+controlPv "$(device):PAR:setAutoCloseLidTimer.DESC"
+font "helvetica-medium-r-10.0"
+fgColor index 12
+bgColor index 0
+useDisplayBg
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "controls"
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 902
+y 223
+w 96
+h 23
+controlPv "$(device):PAR:setMaxSoakNB"
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 0
+editable
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "controls"
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 902
+y 210
+w 96
+h 12
+controlPv "$(device):PAR:setMaxSoakNB.DESC"
+font "helvetica-medium-r-10.0"
+fgColor index 12
+bgColor index 0
+useDisplayBg
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "controls"
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 903
+y 177
+w 96
+h 23
+controlPv "$(device):PAR:setMaxSoakTime"
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+fgColor index 14
+bgColor index 0
+editable
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "controls"
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 903
+y 164
+w 96
+h 12
+controlPv "$(device):PAR:setMaxSoakTime.DESC"
+font "helvetica-medium-r-10.0"
+fgColor index 12
+bgColor index 0
+useDisplayBg
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "controls"
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 1004
+y 362
+w 70
+h 25
+controlPv "$(device):STATE:setHighLN2"
+format "float"
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+fgColor index 33
+bgColor index 9
+useDisplayBg
+limitsFromDb
+nullColor index 0
+colorPv "$(device):STATE:setHighLN2"
+smartRefresh
+fastUpdate
+useHexPrefix
+showUnits
+newPos
+objType "controls"
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 1004
+y 404
+w 70
+h 25
+controlPv "$(device):STATE:setLowLN2"
+format "float"
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+fgColor index 33
+bgColor index 9
+useDisplayBg
+limitsFromDb
+nullColor index 0
+colorPv "$(device):STATE:setLowLN2"
+smartRefresh
+fastUpdate
+useHexPrefix
+showUnits
+newPos
+objType "controls"
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 905
+y 435
+w 96
+h 12
+controlPv "$(device):STATE:currLN2.DESC"
+font "helvetica-medium-r-10.0"
+fgColor index 12
+bgColor index 0
+useDisplayBg
+limitsFromDb
+nullColor index 0
+useHexPrefix
+newPos
+objType "controls"
+endObjectProperties
+
+# (Text Control)
+object activeXTextDspClass
+beginObjectProperties
+major 4
+minor 7
+release 0
+x 905
+y 448
+w 96
+h 23
+controlPv "$(device):STATE:currLN2"
+format "float"
+font "helvetica-medium-r-10.0"
+fontAlign "center"
+fgColor index 33
+bgColor index 0
+limitsFromDb
+nullColor index 0
+colorPv "$(device):STATE:currLN2"
+smartRefresh
+fastUpdate
+useHexPrefix
+showUnits
+newPos
+objType "controls"
+endObjectProperties
+

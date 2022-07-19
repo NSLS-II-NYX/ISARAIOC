@@ -1,0 +1,4 @@
+#!/bin/bash
+cd "${0%/*}" && cd ../opi
+edl_path=$(pwd)/robot.edl
+run-edm -m device=$1 -x $edl_path &
